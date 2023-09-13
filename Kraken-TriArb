@@ -280,6 +280,7 @@ INVESTMENT_AMOUNT_DOLLARS = 100
 MIN_PROFIT_DOLLARS = 0.1
 BROKERAGE_PER_TRANSACTION_PERCENT = 0.2
 
+# Upload known combinations with opportunities from a csv pickle. Comment out
 with open('wx1.pkl', 'rb') as f:
     wx_combinations_usdt = pickle.load(f)
 
